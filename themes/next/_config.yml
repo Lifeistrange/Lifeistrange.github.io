@@ -115,10 +115,10 @@ scheme: Pisces
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  GitHub: https://github.com/Lifeistrange || github
-  E-Mail: mailto:maxyunn@gmail.com || envelope
-  QQ: 1505586488 || qq
-  WeChat: ybp_lcg || wechat
+  Lifeistrange: https://github.com/Lifeistrange || github
+  maxyunn@gmail.com:  mailto:maxyunn@gmail.com || envelope
+  1505586488: QQ || qq
+  ybp_lcg: WeChat || wechat
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
