@@ -350,11 +350,11 @@ han: false
 # Disqus
 disqus:
   enable: false
-  shortname:
+  shortname: universe-2
   count: true
 
 # Hypercomments
-#hypercomments_id:
+hypercomments_id: 97584
 
 # changyan
 changyan:
