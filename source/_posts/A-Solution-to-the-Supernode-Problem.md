@@ -1,8 +1,9 @@
 ---
 title: Titan的超级节点解决方案 - A Solution to the Supernode Problem
 date: 2017-11-09 16:32:24
+categories: JanusGraph
 tags: 
-    - Janus
+    - JanusGraph
     - Titan
     - graph
     - database
