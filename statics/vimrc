@@ -1,0 +1,36 @@
+set tabstop=4
+set softtabstop=4
+set autoindent
+set expandtab
+set shiftwidth=4
+"set mouse=a
+
+if has("autocmd")
+  filetype indent on
+  autocmd FileType make set noexpandtab
+endif
+
+filetype plugin on
+set ofu=syntaxcomplete#Complete
+
+set number
+set ruler
+
+set nolinebreak
+set background=light
+set showmatch
+set shortmess=atI
+if has("autochdir")
+  set autochdir
+endif
+
+set t_Co=256
+colorscheme desert
+
+hi LineNr ctermfg=245 ctermbg=235
+set cursorline
+hi CursorLine ctermbg=235 cterm=NONE guibg=Grey40
+syntax on
+
+"记住上次打开的位置
+au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
